@@ -1,0 +1,99 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+#root{
+  width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    background: #007bff;
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+    background: #fff;
+    padding: 12px;
+}
+
+.container :where(.title, li, li i, .details) {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    float: left;
+}
+
+.details {
+    float: right;
+}
+
+.content ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px 0;
+    border: 1px solid #a6a6a6;
+    padding: 5px;
+}
+
+.content ul li {
+    margin: 4px 3px;
+    list-style: none;
+    background: #F2F2F2;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.content ul li i {
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    font-size: 12px;
+    cursor: pointer;
+    background: #fff;
+    justify-content: center;
+    text-align: center;
+    line-height: 20px;
+}
+
+.content ul input {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+}
+
+.details {
+    justify-content: space-between;
+}
+
+.details button {
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 5px 15px;
+    background: #007bff;
+}
+
+.submit {
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 15px;
+    background: #007bff;
+    width: 100%;
+}
+button:disabled{
+    opacity: 0.7;
+}
