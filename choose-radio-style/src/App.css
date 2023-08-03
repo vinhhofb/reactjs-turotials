@@ -1,0 +1,94 @@
+
+.Vuejs{
+  background: #00bc7f;
+}
+.Vuejs-div{
+  background: #3ed5a5;
+}
+.Reactjs{
+  background: #027bfb;
+}
+.Reactjs-div{
+  background: #56a4f7;
+}
+.Angular{
+  background: #dd0031;
+}
+.Angular-div{
+  background: #c3002f;
+}
+.Nextjs{
+  background: #101214;
+}
+.Nextjs-div{
+  background: #161a1d;
+}
+.body-box{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+html{
+  box-sizing: inherit;
+  font-size: 62.5%;
+}
+.card{
+  width: 100%;
+  border-radius: 1.6rem;
+  padding: 3.2rem;
+}
+.title{
+  margin: 0 0 2rem;
+  padding: 0;
+  line-height: 150%;
+  font-size: 2rem;
+  color: #738496;
+}
+.description{
+  margin: 0;
+  padding: 0;
+  line-height: 150%;
+  font-size: 2rem;
+  color: #738496;
+}
+.button-class{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background: #ececec;
+  color: #738496;
+  position: relative;
+  padding: 1.6rem;
+  border-radius: 1.2rem;
+  user-select: none;
+  cursor: pointer;
+  transition: all 120ms ease-out;
+}
+.button-class:hover, .button-class:focus{
+  transform: scale(1.03);
+}
+.button-class-active{
+  outline: 4px solid #1d7afc;
+  border-radius: 1.2rem;
+}
+.button-class-active:after{
+  content: "✓";
+  position: absolute;
+  margin-top: -4.5rem;
+  margin-left: 5.2rem;
+  height: 2.4rem;
+  width: 2.4rem;
+  background: #1d7afc;
+  border-radius: 999px;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-choose{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.6rem;
+  margin: 3.2rem 0;
+}
